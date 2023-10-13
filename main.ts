@@ -152,7 +152,6 @@ controller.moveSprite(mySprite)
 mySprite.setStayInScreen(true)
 info.setLife(3)
 info.setScore(0)
-tiles.setCurrentTilemap(tilemap`level1`)
 game.onUpdateInterval(700, function () {
     if (info.score() < 10000) {
         Fjende = sprites.create(img`
